@@ -410,7 +410,7 @@ const App: React.FC = () => {
                   tabIndex={-1}
                 >
                   <span>{selectedSkipId === skip.id ? 'Selected' : 'Select This Skip'}</span>
-                  {!selectedSkipId === skip.id && (
+                  {!selectedSkipId !== skip.id && (
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       width="16" 
